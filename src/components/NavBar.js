@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function NavBar(props){
   const colors = {
     black: 'navbar-inverse',
@@ -14,6 +15,7 @@ function NavBar(props){
             { props.title }
           </a>
         </div>
+        
       </div>
     </nav>
   )
